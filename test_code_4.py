@@ -33,7 +33,7 @@ def test_the_cheapest_big_mac_price_by_year():
     value =['Malaysia(MYS): $1.7', 'India(IND): $1.58', 'Russia(RUS): $1.65', 'Venezuela(VEN): $0.66', 'India(IND): $1.89', 'Malaysia(MYS): $1.19', 'Saudi Arabia(SAU): $0.64', 'China(CHN): $1.41', 'Venezuela(VEN): $0.67', 'China(CHN): $1.27']
     check_if_file_exists()
     random_choice = random.randint(1,10)
-    assert get_the_cheapest_big_mac_price_by_year(year[random_choice-1]) == value[random_choice-1]
+    assert get_the_cheapest_big_mac_price_by_year(year[random_choice - 1]) == value[random_choice - 1]
 
 def test_the_most_expensive_big_mac_price_by_year():
     year = [2003,2014,2016,2014,2013,2005,2006,2010,2011,2009]
